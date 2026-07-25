@@ -7,8 +7,8 @@ This project involved building a self-contained Active Directory domain environm
 ## 🗂️ Lab Environment
 
 - **Hypervisor:** Oracle VirtualBox
-- **Domain Controller:** Windows Server 2022 Standard (Evaluation) — Desktop Experience
-- **Client Machine:** Windows 11 Enterprise (Evaluation) *(substituted for Windows 10 Enterprise, no longer available for download)*
+- **Domain Controller:** Windows Server 2022 Standard — Desktop Experience
+- **Client Machine:** Windows 11 Enterprise
 - **Domain:** `homelab.local`
 - **Tools:** PowerShell, Active Directory Users and Computers (ADUC), Group Policy Management Console (GPMC)
 
@@ -24,8 +24,6 @@ This project involved building a self-contained Active Directory domain environm
 
 ## 🔑 Key Learnings
 
-- Started the DC01 install with Server Core, then switched to Desktop Experience after realizing GUI tools (ADUC, GPMC) would make AD management significantly easier to demonstrate and troubleshoot
-- Adapted the lab to use Windows 11 Enterprise instead of Windows 10 Enterprise (no longer available); domain-join behavior is identical between the two
 - Gained hands-on practice with how AD DS, OUs, and Group Policy work together to manage a real organizational structure
 - Practiced the exact ticket types (lockouts, provisioning, password resets) most common in Help Desk roles
 
